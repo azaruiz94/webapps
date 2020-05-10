@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Learn It!</title>
+  <link rel="stylesheet" type="text/css" href="../css/custom.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.css">
+  <script type="text/javascript" src="../vendor/jquery/jquery.slim.min.js"></script>
+  <script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">LearnIt!</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="html.html">Html</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="css.html">Css</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mysql.html">MySQL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript.html">Javascript</a>
+          </li>
+          <li>
+            <a id="btn-exit" class="nav-link" href="login.html">Log out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="list-group list-group-flush">
+        <a href="#headings" class="list-group-item list-group-item-action bg-light">Headings</a>
+        <a href="#paragraph" class="list-group-item list-group-item-action bg-light">Paragraph</a>
+        <a href="#line_break" class="list-group-item list-group-item-action bg-light">Line break</a>
+        <a href="#bold" class="list-group-item list-group-item-action bg-light">Bold</a>
+        <a href="#strong" class="list-group-item list-group-item-action bg-light">Strong</a>
+        <a href="#italic" class="list-group-item list-group-item-action bg-light">Italic</a>
+        <a href="#emphasize" class="list-group-item list-group-item-action bg-light">Emphasize</a>
+        <a href="#subscript" class="list-group-item list-group-item-action bg-light">Subscript</a>
+        <a href="#superscrip" class="list-group-item list-group-item-action bg-light">Superscrip</a>
+        <a href="#horizontal_rule" class="list-group-item list-group-item-action bg-light">Horiznotal rule</a>
+        <a href="#cite" class="list-group-item list-group-item-action bg-light">Cite</a>
+        <a href="#lists" class="list-group-item list-group-item-action bg-light">Lists</a>
+        <a href="#tables" class="list-group-item list-group-item-action bg-light">Tables</a>
+        <a href="#links" class="list-group-item list-group-item-action bg-light">Link</a>
+        <a href="#images" class="list-group-item list-group-item-action bg-light">Images</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    <div id="content-wrapper">
+      <div class="container-fluid">
+        <h1 id="headings" class="mt-4">HTML Headings</h1>
+        <p>Headings are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags.</p>
+        <p>Usage:</p>
+          <div class="code-usage one-tab">
+            <p>
+            <code>&lt;h1&gt;</code>Heading 1<code>&lt;h1&gt;</code><br>
+            <code>&lt;h2&gt;</code>Heading 2<code>&lt;h2&gt;</code><br>
+            <code>&lt;h3&gt;</code>Heading 3<code>&lt;h3&gt;</code><br>
+            <code>&lt;h4&gt;</code>Heading 4<code>&lt;h4&gt;</code><br>
+            <code>&lt;h5&gt;</code>Heading 5<code>&lt;h5&gt;</code><br>
+            <code>&lt;h6&gt;</code>Heading 6<code>&lt;h6&gt;</code><br>
+           </p>
+          </div>
+        <p>Example:</p>
+        <div class="container">
+            <div class="code-example">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+          </div>
+        </div>
+
+        <h1 id="paragraph" class="mt-4">HTML Paragraphs</h1>
+        <p>The HTML <code>&lt;p&gt;</code> element defines a paragraph</p>
+        <p>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.</p>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+          <p><code>&lt;p&gt;</code>This is a paragraph.<code>&lt;/p&gt;</code></p>
+          <p><code>&lt;p&gt;</code>This is another paragraph.<code>&lt;/p&gt;</code></p>
+        </div>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <p>This is a paragraph.</p>
+            <p>This is another paragraph.</p>
+          </div>
+        </div>
+        <h1 id="line_break" class="mt-4">HTML Line Break</h1>
+        <p>The <code>&lt;br&gt;</code> tag inserts a single line break.</p>
+        <p>The <code>&lt;br&gt;</code> tag is an empty tag which means that it has no end tag.</p>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+          <p>To force <code>&lt;br</code>&gt; line breaks <code>&lt;br</code>&gt; in a text, <code>&lt;br</code>&gt; use the br <code>&lt;br</code>&gt; element.</p>
+        </div>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example"> 
+            <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+          </div>
+        </div>
+        
+        <h1 id="bold" class="mt-4">HTML Bold</h1>
+        <p>The <code>&lt;b&gt;</code> element defines bold text, without any extra importance.</p>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+          <p><code>&lt;b&gt;</code>This text is bold<code>&lt;/b&gt;</code></p>
+        </div>
+        
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <b>This text is bold</b>
+          </div>
+        </div>
+
+        <h1 id="strong" class="mt-4">HTML Strong</h1>
+        <p>The <code>&lt;strong&gt;</code> element defines strong text, with added semantic "strong" importance.</p>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+          <p><code>&lt;strong&gt;</code>This text is strong<code>&lt;/strong&gt;</code></p>
+        </div>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <b>This text is strong</b>
+          </div>
+        </div>
+
+        <h1 id="italic" class="mt-4">HTML Italic</h1>
+        <p>The <code>&lt;i&gt;</code> element defines italic text, without any extra importance.</p>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+          <p><code>&lt;i&gt;</code>This text is italic<code>&lt;/i&gt;</code></p>
+        </div>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <i>This text is italic</i>
+          </div>
+        </div>
+
+        <h1 id="emphasize" class="mt-4">HTML Emphasize</h1>
+        <p>The <code>&lt;em&gt;</code> element defines emphasized text, with added semantic importance.</p>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+          <p><code>&lt;em&gt;</code>This text is emphasized<code>&lt;/em&gt;</code></p>
+        </div>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <i>This text is emphasized</i>
+          </div>
+        </div>
+
+        <h1 id="subscript" class="mt-4">HTML Subscript</h1>
+        <p>The <code>&lt;sub&gt;</code> element defines subscripted text.</p>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+          <p><code>&lt;em&gt;</code>This text is subscripted<code>&lt;/em&gt;</code>
+        </div>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <p>Hello there <sub>This text is subscripted</sub></p>
+          </div>
+        </div>
+
+        <h1 id="superscrip" class="mt-4">HTML Superscrip</h1>
+        <p>The <code>&lt;sup&gt;</code> element defines superscriped text.</p>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+          <p><code>&lt;sup&gt;</code>This text is superscriped<code>&lt;/sup&gt;</code></p>
+        </div>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <p>Hello there <sup>This text is superscriped</sup></p>
+          </div>
+        </div>
+
+        <h1 id="horizontal_rule" class="mt-4">HTML Horizontal Rule</h1>
+        <p>The <code>&lt;hr&gt;</code> defines a thematic change in the content</p>
+        <p>Usage and example:</p>
+        <div class="container">
+          <div class="code-usage code-example">
+            <code>&lt;h1&gt;</code>HTML<code>&lt;/h1&gt;</code>
+            <br>
+            <code>&lt;p&gt;</code>HTML is a language for describing web pages.....<code>&lt;/p&gt;</code>
+            <hr>
+            <code>&lt;h1&gt;</code>CSS<code>&lt;/h1&gt;</code>
+            <br>
+            <code>&lt;p&gt;</code>CSS defines how to display HTML elements.....<code>&lt;/p&gt;</code>
+          </div>
+        </div>
+        
+        <h1 id="cite" class="mt-4">HTML Cite</h1>
+        <p>The <code>&lt;cite&gt;</code> tag defines the title of a work (e.g. a book, a song, a movie, a painting, a sculpture, etc.).</p>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+            <p><code>&lt;p&gt;</code><code>&lt;cite&gt;</code>The Scream<code>&lt;/cite&gt;</code> by Edward Munch. Painted in 1893.<code>&lt;/p&gt;</code></p>
+        </div>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+          </div>
+        </div>
+
+        <h1 id="lists" class="mt-4">HTML Lists</h1>
+        <h4>Unordered List</h4>
+        <p>An unordered list starts with the <code>&lt;ul&gt;</code> tag. Each list item starts with the <code>&lt;li&gt;</code> tag.</p>
+        <p>The list items will be marked with bullets (small black circles) by default:</p>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+          <p class="no-margin"><code>&lt;ul&gt;</code></p>
+          <p class="no-margin one-tab"><code>&lt;li&gt;</code>Coffee<code>&lt;/li&gt;</code></p>
+          <p class="no-margin one-tab"><code>&lt;li&gt;</code>Tea<code>&lt;/li&gt;</code></p> 
+          <p class="no-margin one-tab"><code>&lt;li&gt;</code>Milk<code>&lt;/li&gt;</code></p>
+          <p class="no-margin"><code>&lt;/ul&gt;</code></p>
+        </div>
+        <br>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <ul>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ul>
+          </div>
+        </div>
+        <h4>Ordered List</h4>
+        <p>An ordered list starts with the <code>&lt;ol&gt;</code> tag. Each list item starts with the <code>&lt;li&gt;</code> tag.</p>
+        <p>The list items will be marked with numbers by default.</p>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+          <p class="no-margin"><code>&lt;ol&gt;</code></p>
+          <p class="no-margin one-tab"><code>&lt;li&gt;</code>Coffee<code>&lt;/li&gt;</code></p>
+          <p class="no-margin one-tab"><code>&lt;li&gt;</code>Tea<code>&lt;/li&gt;</code></p> 
+          <p class="no-margin one-tab"><code>&lt;li&gt;</code>Milk<code>&lt;/li&gt;</code></p>
+        <p class="no-margin"><code>&lt;/ol&gt;</code></p>
+        </div>
+        <br>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <ol>
+              <li>Coffee</li>
+              <li>Tea</li>
+              <li>Milk</li>
+            </ol>
+          </div>
+        </div>
+        <h4>Ordered HTML List - The Type Attribute</h4>
+        <p>The <code>type</code> attribute of the <code>&lt;ol&gt;</code>  tag, defines the type of the list item marker:</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Desciption</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>type="1"</td>
+              <td>The list items will be numbered with numbers (default)</td>
+            </tr>
+            <tr>
+              <td>type="A"</td>
+              <td>The list items will be numbered with uppercase letters</td>
+            </tr>
+            <tr>
+              <td>type="a"</td>
+              <td>The list items will be numbered with lowercase letters</td>
+            </tr>
+            <tr>
+              <td>type="I"</td>
+              <td>The list items will be numbered with uppercase roman numbers</td>
+            </tr>
+            <tr>
+              <td>type="i"</td>
+              <td>The list items will be numbered with lowercase roman numbers</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h1 id="tables" class="mt-4">HTML Table</h1>
+        <p>HTML tables allow web authors to arrange data into rows and columns.</p>
+        <p>An HTML table is defined with the <code>&lt;table&gt;</code> tag.</p>
+        <p>Each table row is defined with the <code>&lt;tr&gt;</code> tag. A table header is defined with the <code>&lt;th&gt;</code>tag. By default, table headings are bold and centered. A table data/cell is defined with the <code>&lt;td&gt;</code> tag.</p>
+        <p>Usage:</p>
+        <div class="code-usage">
+            <xmp>
+              <table class="table">
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Age</th>
+                </tr>
+                <tr>
+                  <td>Jill</td>
+                  <td>Smith</td>
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td>Eve</td>
+                  <td>Jackson</td>
+                  <td>94</td>
+                </tr>
+              </table>
+            </xmp>
+        </div>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <table class="table">
+                <tr>
+                  <th>Firstname</th>
+                  <th>Lastname</th>
+                  <th>Age</th>
+                </tr>
+                <tr>
+                  <td>Jill</td>
+                  <td>Smith</td>
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td>Eve</td>
+                  <td>Jackson</td>
+                  <td>94</td>
+                </tr>
+              </table>
+          </div>
+        </div>
+
+        <h1 id="links" class="mt-4">HTML Links</h1>
+        <p>HTML links are hyperlinks.</p>
+        <p>You can click on a link and jump to another document.</p>
+        <p>When you move the mouse over a link, the mouse arrow will turn into a little hand.</p>
+        <h4>Link tag for absolute URL</h4>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+          <code>&lt;a</code> href="https://www.google.com/"<code>&gt;</code> Go to Google <code>&lt;/a&gt;</code>;
+        </div>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <a href="https://www.google.com/">Go to Google</a>
+          </div>
+        </div>
+        <h4>Link tag for relative URL</h4>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+          <code>&lt;a</code> href="Css.html"<code>&gt;</code> Go to CSS site<code>&lt;/a &gt;</code>;
+        </div>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <a href="css.html">Go to CSS site</a>
+          </div>
+        </div>
+        <h4>Link tag for relative URL - Specific section on the same page</h4>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+          <code>&lt;a</code> href="#object_id"<code>&gt;</code> Go to a specific section on this page<code>&lt;/a &gt;</code>;
+        </div>
+        <p>Example:</p>
+        <div class="container">
+          <div class="code-example">
+            <a href="#headings">Go to Headings section</a>
+          </div>
+        </div>
+
+        <h1 id="images" class="mt-4">HTML Images</h1>
+        <p>In HTML, images are defined with the <code>&lt;img&gt;</code> tag.</p>
+        <p>The <code>&lt;img&gt;</code> tag is empty, it contains attributes only, and does not have a closing tag.</p>
+        <p>The <code>src</code> attribute specifies the URL (web address) of the image:</p>
+        <p>The alt attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).</p>
+        <p>The value of the alt attribute should describe the image.</p>
+        <p>Usage:</p>
+        <div class="code-usage one-tab">
+            <p><code>&lt;img src </code> "= https://www.we-love-crete.com/images/holidays-crete-chania.jpg" <code>alt</code> = "Flowers in chania"<code>&gt;</code></p>
+        </div>
+        <p>Example:</p>
+        <div class="container" align="center">
+          <div class="code-example">
+            <img src="https://www.we-love-crete.com/images/holidays-crete-chania.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

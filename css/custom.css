@@ -1,0 +1,64 @@
+#navbar-brand{
+  text-align: left;
+}
+
+#content-wrapper {
+  margin-top: 55px;
+  margin-left: 15%;
+  width: 100%
+}
+#sidebar-wrapper {
+  margin-top: 56px;
+  height: 91%;
+  position: fixed;
+  width: 15%;
+  overflow-y: scroll;
+}
+#navbar {
+  width: 100%;
+  height: 9%;
+  position: fixed;
+}
+#login-body{
+    height: 100%;
+    text-align: center !important;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+}
+.no-margin{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.one-tab{
+  margin-left: 25px;
+}
+.code-usage{
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New", "monospace";
+}
+.code-example {
+  padding: 8px 20px;
+  margin: 24px -20px;
+  background-color: #f1f1f1;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+.bg-primary {
+    background-color: #007bff!important;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.text-center {
+    text-align: center!important;
+}

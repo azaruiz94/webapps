@@ -1,0 +1,13 @@
+# These commands have to be executed just once
+git init
+git remote add origin remote_repository_URL
+git remote -v
+-------------------------------------------
+# These commnads have to be execute whenever you want to push something to remote repository
+git add .
+git status (optional)
+git commit -m "commit message"
+git push origin master
+-------------------------------------------
+This command has to be executed to pull from remote repository
+git pull origin master
