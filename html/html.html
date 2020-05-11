@@ -75,7 +75,17 @@
     <!-- /#sidebar-wrapper -->
     <div id="content-wrapper">
       <div class="container-fluid">
-        <h1 id="headings" class="mt-4">HTML Headings</h1>
+        <h1 class="mt-4">HTML Tags</h1>
+        <code>&lt;tagname&gt;</code>content goes here...<code>&lt;/tagname&gt;</code>
+        <p>HTML tags are element names surrounded by angle brackets:</p>
+        <ul>
+          <li>HTML tags normally come <b>in pairs</b> like <code>&lt;p&gt;</code> and <code>&lt;/p&gt;</code></li>
+          <li>The first tag in a pair is the <b> start tag,</b> the second tag is the <b> end tag</b></li>
+          <li>The end tag is written like the start tag, but with a <strong>forward slash</strong> 
+          inserted before the tag name </li>
+        </ul>
+        <p><strong>Note:</strong> The start tag is also called the opening tag, and the end tag the closing tag.</p>
+        <h4 id="headings" >HTML Headings</h4>
         <p>Headings are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags.</p>
         <p>Usage:</p>
           <div class="code-usage one-tab">
@@ -100,7 +110,7 @@
           </div>
         </div>
 
-        <h1 id="paragraph" class="mt-4">HTML Paragraphs</h1>
+        <h4 id="paragraph" class="mt-4">HTML Paragraphs</h4>
         <p>The HTML <code>&lt;p&gt;</code> element defines a paragraph</p>
         <p>A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.</p>
         <p>Usage:</p>
@@ -115,7 +125,7 @@
             <p>This is another paragraph.</p>
           </div>
         </div>
-        <h1 id="line_break" class="mt-4">HTML Line Break</h1>
+        <h4 id="line_break" class="mt-4">HTML Line Break</h4>
         <p>The <code>&lt;br&gt;</code> tag inserts a single line break.</p>
         <p>The <code>&lt;br&gt;</code> tag is an empty tag which means that it has no end tag.</p>
         <p>Usage:</p>
@@ -129,7 +139,7 @@
           </div>
         </div>
         
-        <h1 id="bold" class="mt-4">HTML Bold</h1>
+        <h4 id="bold" class="mt-4">HTML Bold</h4>
         <p>The <code>&lt;b&gt;</code> element defines bold text, without any extra importance.</p>
         <p>Usage:</p>
         <div class="code-usage one-tab">
@@ -143,7 +153,7 @@
           </div>
         </div>
 
-        <h1 id="strong" class="mt-4">HTML Strong</h1>
+        <h4 id="strong" class="mt-4">HTML Strong</h4>
         <p>The <code>&lt;strong&gt;</code> element defines strong text, with added semantic "strong" importance.</p>
         <p>Usage:</p>
         <div class="code-usage one-tab">
@@ -156,7 +166,7 @@
           </div>
         </div>
 
-        <h1 id="italic" class="mt-4">HTML Italic</h1>
+        <h4 id="italic" class="mt-4">HTML Italic</h4>
         <p>The <code>&lt;i&gt;</code> element defines italic text, without any extra importance.</p>
         <p>Usage:</p>
         <div class="code-usage one-tab">
@@ -169,7 +179,7 @@
           </div>
         </div>
 
-        <h1 id="emphasize" class="mt-4">HTML Emphasize</h1>
+        <h4 id="emphasize" class="mt-4">HTML Emphasize</h4>
         <p>The <code>&lt;em&gt;</code> element defines emphasized text, with added semantic importance.</p>
         <p>Usage:</p>
         <div class="code-usage one-tab">
@@ -182,7 +192,7 @@
           </div>
         </div>
 
-        <h1 id="subscript" class="mt-4">HTML Subscript</h1>
+        <h4 id="subscript" class="mt-4">HTML Subscript</h4>
         <p>The <code>&lt;sub&gt;</code> element defines subscripted text.</p>
         <p>Usage:</p>
         <div class="code-usage one-tab">
@@ -195,7 +205,7 @@
           </div>
         </div>
 
-        <h1 id="superscrip" class="mt-4">HTML Superscrip</h1>
+        <h4 id="superscrip" class="mt-4">HTML Superscrip</h4>
         <p>The <code>&lt;sup&gt;</code> element defines superscriped text.</p>
         <p>Usage:</p>
         <div class="code-usage one-tab">
@@ -208,7 +218,7 @@
           </div>
         </div>
 
-        <h1 id="horizontal_rule" class="mt-4">HTML Horizontal Rule</h1>
+        <h4 id="horizontal_rule" class="mt-4">HTML Horizontal Rule</h4>
         <p>The <code>&lt;hr&gt;</code> defines a thematic change in the content</p>
         <p>Usage and example:</p>
         <div class="container">
@@ -223,7 +233,7 @@
           </div>
         </div>
         
-        <h1 id="cite" class="mt-4">HTML Cite</h1>
+        <h4 id="cite" class="mt-4">HTML Cite</h4>
         <p>The <code>&lt;cite&gt;</code> tag defines the title of a work (e.g. a book, a song, a movie, a painting, a sculpture, etc.).</p>
         <p>Usage:</p>
         <div class="code-usage one-tab">
@@ -236,8 +246,8 @@
           </div>
         </div>
 
-        <h1 id="lists" class="mt-4">HTML Lists</h1>
-        <h4>Unordered List</h4>
+        <h4 id="lists" class="mt-4">HTML Lists</h4>
+        <h6>Unordered List</h6>
         <p>An unordered list starts with the <code>&lt;ul&gt;</code> tag. Each list item starts with the <code>&lt;li&gt;</code> tag.</p>
         <p>The list items will be marked with bullets (small black circles) by default:</p>
         <p>Usage:</p>
@@ -259,7 +269,7 @@
             </ul>
           </div>
         </div>
-        <h4>Ordered List</h4>
+        <h6>Ordered List</h6>
         <p>An ordered list starts with the <code>&lt;ol&gt;</code> tag. Each list item starts with the <code>&lt;li&gt;</code> tag.</p>
         <p>The list items will be marked with numbers by default.</p>
         <p>Usage:</p>
@@ -281,7 +291,7 @@
             </ol>
           </div>
         </div>
-        <h4>Ordered HTML List - The Type Attribute</h4>
+        <h6>Ordered HTML List - The Type Attribute</h6>
         <p>The <code>type</code> attribute of the <code>&lt;ol&gt;</code>  tag, defines the type of the list item marker:</p>
         <table class="table">
           <thead>
@@ -314,7 +324,7 @@
           </tbody>
         </table>
 
-        <h1 id="tables" class="mt-4">HTML Table</h1>
+        <h4 id="tables" class="mt-4">HTML Table</h4>
         <p>HTML tables allow web authors to arrange data into rows and columns.</p>
         <p>An HTML table is defined with the <code>&lt;table&gt;</code> tag.</p>
         <p>Each table row is defined with the <code>&lt;tr&gt;</code> tag. A table header is defined with the <code>&lt;th&gt;</code>tag. By default, table headings are bold and centered. A table data/cell is defined with the <code>&lt;td&gt;</code> tag.</p>
@@ -363,11 +373,11 @@
           </div>
         </div>
 
-        <h1 id="links" class="mt-4">HTML Links</h1>
+        <h4 id="links" class="mt-4">HTML Links</h4>
         <p>HTML links are hyperlinks.</p>
         <p>You can click on a link and jump to another document.</p>
         <p>When you move the mouse over a link, the mouse arrow will turn into a little hand.</p>
-        <h4>Link tag for absolute URL</h4>
+        <h6>Link tag for absolute URL</h6>
         <p>Usage:</p>
         <div class="code-usage one-tab">
           <code>&lt;a</code> href="https://www.google.com/"<code>&gt;</code> Go to Google <code>&lt;/a&gt;</code>;
@@ -378,7 +388,7 @@
             <a href="https://www.google.com/">Go to Google</a>
           </div>
         </div>
-        <h4>Link tag for relative URL</h4>
+        <h6>Link tag for relative URL</h6>
         <p>Usage:</p>
         <div class="code-usage one-tab">
           <code>&lt;a</code> href="Css.html"<code>&gt;</code> Go to CSS site<code>&lt;/a &gt;</code>;
@@ -389,7 +399,7 @@
             <a href="css.html">Go to CSS site</a>
           </div>
         </div>
-        <h4>Link tag for relative URL - Specific section on the same page</h4>
+        <h6>Link tag for relative URL - Specific section on the same page</h6>
         <p>Usage:</p>
         <div class="code-usage one-tab">
           <code>&lt;a</code> href="#object_id"<code>&gt;</code> Go to a specific section on this page<code>&lt;/a &gt;</code>;
@@ -401,7 +411,7 @@
           </div>
         </div>
 
-        <h1 id="images" class="mt-4">HTML Images</h1>
+        <h4 id="images" class="mt-4">HTML Images</h4>
         <p>In HTML, images are defined with the <code>&lt;img&gt;</code> tag.</p>
         <p>The <code>&lt;img&gt;</code> tag is empty, it contains attributes only, and does not have a closing tag.</p>
         <p>The <code>src</code> attribute specifies the URL (web address) of the image:</p>

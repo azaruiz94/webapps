@@ -55,22 +55,59 @@
     <!-- Sidebar -->
     <div class="bg-light border-right" id="sidebar-wrapper">
       <div class="list-group list-group-flush">
-        <a href="css-selectors.html" class="list-group-item list-group-item-action bg-light">Introduction</a>
-        <a href="#line_break" class="list-group-item list-group-item-action bg-light">Selectors</a>
-        <a href="#bold" class="list-group-item list-group-item-action bg-light">Text</a>
-        <a href="#strong" class="list-group-item list-group-item-action bg-light">Tables</a>
-        <a href="#demo" data-toggle="collapse" class="list-group-item list-group-item-action bg-light">Box Model ></a>
-        <div id="demo" class="collapse">
-          <a href="#italic" class="list-group-item list-group-item-action bg-light">Padding</a>
-          <a href="#emphasize" class="list-group-item list-group-item-action bg-light">Margin</a>
-          <a href="#subscript" class="list-group-item list-group-item-action bg-light">Float</a>
+        <a href="#introduction" class="list-group-item list-group-item-action bg-light">Introduction</a>
+        <a href="#selectors" data-toggle="collapse" class="list-group-item list-group-item-action bg-light">Selectors
+          <svg class="bi bi-chevron-right float-md-right arrow-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L10.293 8 4.646 2.354a.5.5 0 010-.708z" clip-rule="evenodd"/>
+          </svg>
+        </a>
+        <div id="selectors" class="collapse">
+          <a href="css-selectors.html#element-selector" class="list-group-item list-group-item-action bg-light">Element-Selector</a>
+          <a href="css-selectors.html#id-selector" class="list-group-item list-group-item-action bg-light">Id-Selector</a>
+          <a href="css-selectors.html#class-selector" class="list-group-item list-group-item-action bg-light">Class-Selector</a>
+          <a href="css-selectors.html#group-selector" class="list-group-item list-group-item-action bg-light">Group-Selector</a>
+          <a href="css-selectors.html#universal-selector" class="list-group-item list-group-item-action bg-light">Universal-Selector</a>
+        </div>
+        <a href="#css-text" data-toggle="collapse" class="list-group-item list-group-item-action bg-light">Text
+           <svg class="bi bi-chevron-right float-md-right arrow-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L10.293 8 4.646 2.354a.5.5 0 010-.708z" clip-rule="evenodd"/>
+            </svg>
+        </a>
+        <div id="css-text" class="collapse">
+          <a href="css-text.html#text-color" class="list-group-item list-group-item-action bg-light">Text-Color</a>
+          <a href="css-text.html#text-alignment" class="list-group-item list-group-item-action bg-light">Text-Alignment</a>
+          <a href="css-text.html#text-decoration" class="list-group-item list-group-item-action bg-light">Text-Decoration</a>
+          <a href="css-text.html#text-transformation" class="list-group-item list-group-item-action bg-light">Text-Transformation</a>
+          <a href="css-text.html#text-identation" class="list-group-item list-group-item-action bg-light">Text-Identation</a>
+          <a href="css-text.html#text-spacing" class="list-group-item list-group-item-action bg-light">Text-Spacing</a>
+        </div>
+        <a href="#css-fonts" data-toggle="collapse" class="list-group-item list-group-item-action bg-light">Fonts
+          <svg class="bi bi-chevron-right float-md-right arrow-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L10.293 8 4.646 2.354a.5.5 0 010-.708z" clip-rule="evenodd"/>
+          </svg>
+        </a>
+        <div id="css-fonts" class="collapse">
+          <a href="css-fonts.html#font-family" class="list-group-item list-group-item-action bg-light">Font-Family</a>
+          <a href="css-fonts.html#font-size" class="list-group-item list-group-item-action bg-light">Font-Size</a>
+          <a href="css-fonts.html#font-weight" class="list-group-item list-group-item-action bg-light">Font-Weight</a>
+          <a href="css-fonts.html#font-style" class="list-group-item list-group-item-action bg-light">Font-Style</a>
+        </div>
+        <a href="#box-model" data-toggle="collapse" class="list-group-item list-group-item-action bg-light">Box Model
+          <svg class="bi bi-chevron-right float-md-right arrow-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L10.293 8 4.646 2.354a.5.5 0 010-.708z" clip-rule="evenodd"/>
+          </svg>
+        </a>
+        <div id="box-model" class="collapse">
+          <a href="css-box-model.html#padding" class="list-group-item list-group-item-action bg-light">Padding</a>
+          <a href="css-box-model.html#margin" class="list-group-item list-group-item-action bg-light">Margin</a>
+          <a href="css-box-model.html#float" class="list-group-item list-group-item-action bg-light">Float</a>
         </div>
       </div>
     </div>
     <!-- /#sidebar-wrapper -->
     <div id="content-wrapper">
       <div class="container-fluid">
-        <h1 class="mt-4">CSS Selectors</h1>
+        <h1 id="css-selectors" class="mt-4">CSS Selectors</h1>
         <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
         <h4 id="element-selector">Element selector (less customizable)</h4>
         <p>The element selector selects HTML elements based on the element name.</p>
@@ -111,7 +148,7 @@
           <p>*Only the first two elements will be styled</p>
         </div>
 
-        <h4 id="class-selector">Group selector (used to minimize code)</h4>
+        <h4 id="group-selector">Group selector (used to minimize code)</h4>
         <p>The grouping selector selects all the HTML elements with the same style definitions.</p>
         <p>Example:</p>
         <div class="one-tab">
