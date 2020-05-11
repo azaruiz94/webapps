@@ -20,16 +20,21 @@
   position: fixed;
 }
 #login-body{
-    height: 100%;
-    text-align: center !important;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display: flex;
+  height: 100%;
+  text-align: center !important;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
 }
+
+.arrow-icon{
+  margin-top: 5px;
+}
+
 .no-margin{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -47,18 +52,26 @@
 }
 
 .text-white {
-    color: #fff!important;
+  color: #fff!important;
 }
 
 .bg-primary {
-    background-color: #007bff!important;
+  background-color: #007bff!important;
 }
 .form-signin {
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
 }
 .text-center {
-    text-align: center!important;
+  text-align: center!important;
+}
+.css-property{
+  color: red;
+  display: inline;
+}
+.css-value{
+  color: blue;
+  display: inline;
 }

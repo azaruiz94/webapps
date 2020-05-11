@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Learn It!</title>
+  <link rel="stylesheet" type="text/css" href="../css/custom.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.css">
+  <script type="text/javascript" src="../vendor/jquery/jquery.slim.min.js"></script>
+  <script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">LearnIt!</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html.html">Html</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="css.html">Css</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mysql.html">MySQL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript.html">Javascript</a>
+          </li>
+          <li>
+            <a id="btn-exit" class="nav-link" href="login.html">Log out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="list-group list-group-flush">
+        <a href="css-selectors.html" class="list-group-item list-group-item-action bg-light">Introduction</a>
+        <a href="#line_break" class="list-group-item list-group-item-action bg-light">Selectors</a>
+        <a href="#bold" class="list-group-item list-group-item-action bg-light">Text</a>
+        <a href="#strong" class="list-group-item list-group-item-action bg-light">Tables</a>
+        <a href="#demo" data-toggle="collapse" class="list-group-item list-group-item-action bg-light">Box Model ></a>
+        <div id="demo" class="collapse">
+          <a href="#italic" class="list-group-item list-group-item-action bg-light">Padding</a>
+          <a href="#emphasize" class="list-group-item list-group-item-action bg-light">Margin</a>
+          <a href="#subscript" class="list-group-item list-group-item-action bg-light">Float</a>
+        </div>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    <div id="content-wrapper">
+      <div class="container-fluid">
+        <h1 class="mt-4">CSS Text Fonts</h1>
+        <p>The CSS font properties define the font family, boldness, size, and the style of a text.</p>
+        <h4 id="css-text-colors">CSS Font Family</h4>
+        <p>The font family of a text is set with the <code>font-family</code> property</p>
+        <p>The <code>font-family</code> property should hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font, and so on.</p>
+        <p>Start with the font you want, and end with a generic family, to let the browser pick a similar font in the generic family, if no other fonts are available.</p>
+        <p>Example:</p>
+        <div class="one-tab">
+          <code>h1 {</code>
+          <br>
+          <p class="one-tab css-property">font-family: <p class="css-value">Arial, Helvetica, Sans-serif;</p></p>
+          <code>}</code>
+        </div>
+
+        <h4 id="css-text-colors">CSS Font Size</h4>
+        <p>The <code>font-size</code> property sets the size of the text.<p>
+        <p>Being able to manage the text size is important in web design. However, you should not use font size adjustments to make paragraphs look like headings, or headings look like paragraphs.</p>
+        <p>Always use the proper HTML tags, like <code>&lt;h1&gt;</code> - <code>&lt;h6&gt;</code>for headings and <code>&lt;p&gt;</code> for paragraphs</p>
+        <p>Example:</p>
+        <div class="one-tab">
+          <code>h1 {</code>
+          <br>
+          <p class="one-tab css-property">font-size: <p class="css-value">70px;</p></p>
+          <code>}</code>
+        </div>
+
+        <h4 id="css-text-colors">CSS Font Weight</h4>
+        <p>The <code>font-weight</code> property sets how thick or thin characters in text should be displayed.<p>
+        <p>Example:</p>
+        <div class="one-tab">
+          <code>h1 {</code>
+          <br>
+          <p class="one-tab css-property">font-weight: <p class="css-value">bold;</p></p>
+          <code>}</code>
+        </div>
+
+        <h4 id="css-text-colors">CSS Font Style</h4>
+        <p>The <code>font-style</code> property is mostly used to specify italic text.<p>
+        <p>This property has three values:</p>
+        <ul>
+          <li><p class="css-value">normal</p> - The text is shown normally</li>
+          <li><p class="css-value">italic</p> - The text is shown in italics</li>
+          <li><p class="css-value">oblique</p> - The text is "leaning" (oblique is very similar to italic, but less supported)</li>
+        </ul>
+        <p>Example:</p>
+        <div class="one-tab">
+          <code>h1 {</code>
+          <br>
+          <p class="one-tab css-property">font-style: <p class="css-value">oblique;</p></p>
+          <code>}</code>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

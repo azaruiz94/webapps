@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Learn It!</title>
+  <link rel="stylesheet" type="text/css" href="../css/custom.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.css">
+  <script type="text/javascript" src="../vendor/jquery/jquery.slim.min.js"></script>
+  <script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">LearnIt!</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html.html">Html</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="css.html">Css</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mysql.html">MySQL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript.html">Javascript</a>
+          </li>
+          <li>
+            <a id="btn-exit" class="nav-link" href="login.html">Log out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="list-group list-group-flush">
+        <a href="css-selectors.html" class="list-group-item list-group-item-action bg-light">Introduction</a>
+        <a href="#line_break" class="list-group-item list-group-item-action bg-light">Selectors</a>
+        <a href="#bold" class="list-group-item list-group-item-action bg-light">Text</a>
+        <a href="#strong" class="list-group-item list-group-item-action bg-light">Tables</a>
+        <a href="#demo" data-toggle="collapse" class="list-group-item list-group-item-action bg-light">Box Model ></a>
+        <div id="demo" class="collapse">
+          <a href="#italic" class="list-group-item list-group-item-action bg-light">Padding</a>
+          <a href="#emphasize" class="list-group-item list-group-item-action bg-light">Margin</a>
+          <a href="#subscript" class="list-group-item list-group-item-action bg-light">Float</a>
+        </div>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    <div id="content-wrapper">
+      <div class="container-fluid">
+        <h1 class="mt-4">CSS Text Formating</h1>
+        <h4 id="css-text-colors">Text Color</h4>
+        <p>Text color can be changed on any text element like <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code></p>
+        <p>The <code>color</code> property is used to set the color of the text. The color is specified by:</p>
+        <ul>
+          <li>Name (i.e.: <code class="css-value">green</code>)</li>
+          <li>Hex code (<code class="css-value">#FFC0CB</code>)</li>
+          <li>Decimal code (<code class="css-value">rgb(255, 165, 0)</code>)</li>
+          <li>Hsl (<code class="css-value">hsl(270, 50%, 60%)</code>)</li>
+        </ul>
+        <p>Example:</p>
+        <div class="one-tab">
+          <code>h1 {</code>
+          <br>
+          <p class="one-tab css-property">color: <p class="css-value">green;</p></p>
+          <code>}</code>
+        </div>
+
+        <h4 id="css-text-colors">Text Alignment</h4>
+        <p>The <code>text-align</code> property is used to set the horizontal alignment of a text.p>
+        <p>A text can be left or right aligned, centered, or justified.color is specified by:</p>
+        <p>The alignment is specified by:</p>
+        <ul>
+          <li><code class="css-value">left</code></li>
+          <li><code class="css-value">center</code></li>
+          <li><code class="css-value">right</code></li>
+        </ul>
+        <p>Example:</p>
+        <div class="one-tab">
+          <code>h1 {</code>
+          <br>
+          <p class="one-tab css-property">text-align: <p class="css-value">center;</p></p>
+          <code>}</code>
+        </div>
+
+        <h4 id="css-text-colors">Text Decoration</h4>
+        <p>The <code>text-decoration</code> property is used to set or remove decorations from text. <p>
+        <p>The value <code>text-decoration:none;</code> is often used to remove underlines from links:</p>
+        <p>These other <code>text-decoration</code> values are used to decorate text:</p>
+        <ul>
+          <li><code class="css-value">overline</code></li>
+          <li><code class="css-value">line-through</code></li>
+          <li><code class="css-value">underline</code></li>
+        </ul>
+        <p>Example:</p>
+        <div class="one-tab">
+          <code>h1 {</code>
+          <br>
+          <p class="one-tab css-property">text-align: <p class="css-value">line-through;</p></p>
+          <code>}</code>
+        </div>
+
+        <h4 id="css-text-colors">Text Transformation</h4>
+        <p>The <code>text-transform</code> property is used to specify uppercase and lowercase letters in a text. <p>
+        <p>It can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word</p>
+        <ul>
+          <li><code class="css-value">uppercase</code></li>
+          <li><code class="css-value">lowercase</code></li>
+          <li><code class="css-value">capitalize</code></li>
+        </ul>
+        <p>Example:</p>
+        <div class="one-tab">
+          <code>h1 {</code>
+          <br>
+          <p class="one-tab css-property">text-transform: <p class="css-value">capitalize;</p></p>
+          <code>}</code>
+        </div>
+
+        <h4 id="css-text-colors">Text Identation</h4>
+        <p>The <code>text-indent</code> property is used to specify the indentation of the first line of a text:<p>
+        <p>Example:</p>
+        <div class="one-tab">
+          <code>h1 {</code>
+          <br>
+          <p class="one-tab css-property">text-indent: <p class="css-value">50px;</p></p>
+          <code>}</code>
+        </div>
+
+        <h4 id="css-text-colors">Text Spacing</h4>
+        <p>The <code>letter-spacing</code> property is used to specify the space between the characters in a text.<p>
+        <p>The following example demonstrates how to increase or decrease the space between characters:</p>
+        <p>Example:</p>
+        <div class="one-tab">
+          <code>h1 {</code>
+          <br>
+          <p class="one-tab css-property">letter-spacing: <p class="css-value">50px;</p></p>
+          <code>}</code>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
